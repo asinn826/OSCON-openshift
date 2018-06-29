@@ -34,7 +34,7 @@ Play around with the UI if you want or continue to part 2.
 ## Part 2: Starting with GitHub
 //TODO: add some intro verbiage about forking
 
-- Fork the project from <LINK TBD> to your GitHub account
+- Fork the project from https://github.com/asinn826/nodejs-ex //TODO: CHANGE THIS LINK to your GitHub account
 - Clone the forked project onto your local machine
 
 ## Part 3: Starting with Visual Studio Code
