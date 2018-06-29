@@ -12,12 +12,12 @@ For this lab, you will need the following:
 1. An OpenShift Origin cluster (predeployed for you)
 
     For the purposes of this lab, we have deployed 6 OpenShift Origin clusters on Azure. The links are as follows:
-    - [aka.ms/openshift1](aka.ms/openshift1)
-    - [aka.ms/openshift2](aka.ms/openshift2)
-    - [aka.ms/openshift3](aka.ms/openshift3)
-    - [aka.ms/openshift4](aka.ms/openshift4)
-    - [aka.ms/openshift5](aka.ms/openshift5)
-    - [aka.ms/openshift6](aka.ms/openshift6)
+    - [aka.ms/openshift1](https://aka.ms/openshift1)
+    - [aka.ms/openshift2](https://aka.ms/openshift2)
+    - [aka.ms/openshift3](https://aka.ms/openshift3)
+    - [aka.ms/openshift4](https://aka.ms/openshift4)
+    - [aka.ms/openshift5](https://aka.ms/openshift5)
+    - [aka.ms/openshift6](https://aka.ms/openshift6)
 
     Please use the cluster corresponding to your lab machine. For example, if you are at machine #1, you would use the cluster located at aka.ms/openshift1.
 
