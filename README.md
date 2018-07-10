@@ -32,7 +32,7 @@ Once you have logged in, you will see all the images available to you. Note that
 Play around with the UI if you want or continue to part 2.
 
 ## Part 2: Starting with GitHub
-//TODO: add some intro verbiage about forking
+A fork in git is a copy of a repository which allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea ([Source](https://help.github.com/articles/fork-a-repo/)).
 
 - Fork the project from https://github.com/asinn826/nodejs-ex to your own GitHub account //TODO: CHANGE THIS LINK to your GitHub account
 - Clone the forked project onto your local machine
@@ -43,7 +43,7 @@ If you don't have a GitHub account, you can just clone the project above without
 Visual Studio Code is a cross-platform code editor developed by Microsoft that supports a wide selection of languages and features. One cool feature within VSCode is native Git integration. We will be using the Git integration during this lab. You may skip this section if you don't have a GitHub account.
 
 - Open the cloned project in VSCode
-- play with it if you want
+- Play with it if you want
 
 ## Part 4: Deploying an image to a container
 Now we will deploy an image to a container within OpenShift Origin
@@ -59,7 +59,8 @@ Now we will deploy an image to a container within OpenShift Origin
 - Go back to the Overview page and click on the *.nip.io link on the top right if you want to see your application live
 
 ## Part 5: Play with the source to image workflow
-- Go to your forked GitHub repository, and go to Settings -> Webhooks
+> NOTE: you will not be able to do this entire part if you don't have a GitHub account
+- Go to your forked GitHub repository, and go to Settings -> Webhooks 
 - Click the "Add webhook" button on the top right
 - Paste the URL you copied in Part 4 into the Payload URL box
 - Change the Content type to "application/json"
