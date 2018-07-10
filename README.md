@@ -6,8 +6,8 @@ In this lab, you will get a taste for creating and deploying applications using 
 
 ## Prerequisites:
 For this lab, you will need the following:
-1. A GitHub account (if you don't have one, this lab is still doable but becomes less interesting - you won't be able to use the fancy automated Git deployment)
-    - You can sign up for a GitHub account [here](https://github.com/join). It takes less than a minute!
+1. A GitHub account (if you don't have one, this lab is still doable but becomes significantly less interesting - you won't be able to use the fancy automated Git deployment that ties together VSCode, GitHub, and OpenShift)
+    - We _strongly_ suggest signing up for a GitHub account. You can sign up for a GitHub account [here](https://github.com/join). It takes less than a minute!
 1. Visual Studio Code installed (already done for you in the lab machine)
 1. An OpenShift Origin cluster (predeployed for you)
 
@@ -82,6 +82,6 @@ Now we will deploy an image to a container within OpenShift Origin
 - Once the build has completed, go to the *.nip.io link and refresh - note that it has updated to show your changes without you needing to do anything!
 
 ## Part 6 (optional): Open Service Broker for Azure - OpenShift integration
-- notice that in the home page you also see Azure services
+- Notice that in the home page you also see Azure services in addition to application images
 - OSBA for Azure has now moved out of preview, and is now 1.0 - you can deploy various services directly from OpenShift
 - //TODO: pick a service to deploy 
