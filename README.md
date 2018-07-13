@@ -21,8 +21,8 @@ For this lab, you will need the following:
 
     Please use the cluster corresponding to your lab machine. For example, if you are at machine #1, you would use the cluster located at aka.ms/openshift1.
 
-    > Note: You will receive a security warning when you open the link. THis is because we are using a self-signed certificate for the OpenShift clusters for the purposes of this lab. Accept the warnings and proceed to continue with the lab
-    
+    > Note: You will receive a security warning when you open the link. This is because we are using a self-signed certificate for the OpenShift clusters for the purposes of this lab. Accept the warnings and proceed to continue with the lab
+
 
 ## Part 1: Starting with OpenShift on Azure
 Login to your OpenShift cluster with the following credentials:
