@@ -21,6 +21,9 @@ For this lab, you will need the following:
 
     Please use the cluster corresponding to your lab machine. For example, if you are at machine #1, you would use the cluster located at aka.ms/openshift1.
 
+    > Note: You will receive a security warning when you open the link. THis is because we are using a self-signed certificate for the OpenShift clusters for the purposes of this lab. Accept the warnings and proceed to continue with the lab
+    
+
 ## Part 1: Starting with OpenShift on Azure
 Login to your OpenShift cluster with the following credentials:
 
@@ -36,13 +39,13 @@ Play around with the UI if you want or continue to part 2.
 ## Part 2: Starting with GitHub
 A fork in Git is a copy of a repository which allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea ([Source](https://help.github.com/articles/fork-a-repo/)).
 
-- Fork the project from https://github.com/asinn826/nodejs-ex-oscon2018 to your own GitHub account by clicking the Fork button on the top right of the repository
+- Fork the project from [https://github.com/asinn826/nodejs-ex-oscon2018](https://github.com/asinn826/nodejs-ex-oscon2018) to your own GitHub account by clicking the Fork button on the top right of the repository
     - You will see a dialog asking you where to fork this repository. Select your Github account.
-- You will be redirected to your fork of the repository afterward. Clone the forked project onto your local machine 
+- You will be redirected to your fork of the repository afterward. Clone the forked project onto your local machine.
     - Click the green "Clone or download" button on the top right of the page and copy the URL to your clipboard
     - Click the Ubuntu icon on the taskbar, and navigate to an easy-to-remember directory
         - We suggest ```/mnt/c/Users/LabUser/Desktop```
-    - Type ```git clone``` and right click the mouse button to paste the URL from the clipboard
+    - Type ```git clone``` and right click the mouse button within the Ubuntu window to paste the URL from the clipboard
 
     ![Git clone](./pictures/2.1.png "Git clone")
 
@@ -60,7 +63,7 @@ Visual Studio Code is a cross-platform code editor developed by Microsoft that s
 ## Part 4: Deploying an image to a container
 Now we will deploy an image to a container within OpenShift Origin
 - Go back to OpenShift
-- Deploy a NodeJS + MongoDB ephemeral image
+- Deploy any NodeJS + MongoDB image
     - Ephemeral image means that your application database will be lost if the host VM is rebooted
     ![NodeJS](./pictures/4.1.png "NodeJS")
 - Under "Add to Project", select "Create Project" and give your project a name you will remember
@@ -86,7 +89,7 @@ Now we will deploy an image to a container within OpenShift Origin
 - Disable SSL verification (the OpenShift cluster deployed uses self-signed certificates, so this verification will need to be disabled)
 - Click "Add webhook"
     ![Github webhook](./pictures/5.1.png "Github webhook")
-- Go back to VSCode and open up the file views/index.html
+- Go back to VSCode and open up the file ```views/index.html```
 - Make a change to the HTML and save the file
     * You could try adding an extra sentence to a title somewhere - something small but something you will remember
 - Open the Source Control view from the left pane in VSCode
@@ -94,16 +97,17 @@ Now we will deploy an image to a container within OpenShift Origin
 - Type your commit message, then ctrl+enter to commit
 - You have 2 options to do a ```git push```: You can use the 3 dots on the top right or use bash in the built-in terminal
     - 3 dots: See screenshot below
-        ![Github webhook](./pictures/5.2.png "Github webhook")
+        ![git push gui](./pictures/5.2.png "git push gui")
     - Terminal: 
         - Press ctrl + ` and select bash
         - Navigate to your repo directory
         - ```git push```
-        ![Github webhook](./pictures/5.3.png "Github webhook")
+        ![git push bash](./pictures/5.3.png "git push bash")
     
-    > Note regarding ```git push```: If you are using your existing Github account with 2 factor authentication enabled, you will need to get a token from Github and use that as your password to push to your repository
+    > Note regarding ```git push:``` If you are using your existing Github account with 2 factor authentication enabled, you will need to get a token from Github and use that as your password to push to your repository
 
 - Go back to your project overview in OpenShift, and notice a new build has started
+    ![New build triggered](./pictures/5.4.png "New build triggered")
 - Once the build has completed, go to the *.nip.io link and refresh - note that it has updated to show your changes without you needing to do anything!
 
 ## Part 6 (optional): Open Service Broker for Azure - OpenShift integration
