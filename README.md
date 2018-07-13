@@ -100,6 +100,9 @@ Now we will deploy an image to a container within OpenShift Origin
         - Navigate to your repo directory
         - ```git push```
         ![Github webhook](./pictures/5.3.png "Github webhook")
+    
+    > Note regarding ```git push```: If you are using your existing Github account with 2 factor authentication enabled, you will need to get a token from Github and use that as your password to push to your repository
+    
 - Go back to your project overview in OpenShift, and notice a new build has started
 - Once the build has completed, go to the *.nip.io link and refresh - note that it has updated to show your changes without you needing to do anything!
 
