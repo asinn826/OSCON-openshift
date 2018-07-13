@@ -102,11 +102,11 @@ Now we will deploy an image to a container within OpenShift Origin
         ![Github webhook](./pictures/5.3.png "Github webhook")
     
     > Note regarding ```git push```: If you are using your existing Github account with 2 factor authentication enabled, you will need to get a token from Github and use that as your password to push to your repository
-    
+
 - Go back to your project overview in OpenShift, and notice a new build has started
 - Once the build has completed, go to the *.nip.io link and refresh - note that it has updated to show your changes without you needing to do anything!
 
 ## Part 6 (optional): Open Service Broker for Azure - OpenShift integration
-- Notice that in the home page you also see Azure services in addition to application images
-- [OSBA for Azure](https://open.microsoft.com/2018/06/27/announcing-open-service-broker-for-azure-1-0-kubernetes/) has now moved out of preview, and is now 1.0 - you can deploy various services directly from OpenShift
+- Notice that in the home page you also see Azure services in addition to application images - this is due to the Open Service Broker for Azure (OSBA) integration, allowing you to deploy various Azure services using OpenShift.
+- [OSBA](https://open.microsoft.com/2018/06/27/announcing-open-service-broker-for-azure-1-0-kubernetes/) has now moved out of preview, and is now 1.0 - you can deploy various services directly from OpenShift.
 
