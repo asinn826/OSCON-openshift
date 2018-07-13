@@ -87,7 +87,7 @@ Now we will deploy an image to a container within OpenShift Origin
 - Click "Add webhook"
     ![Github webhook](./pictures/5.1.png "Github webhook")
 - Go back to VSCode and open up the file views/index.html
-- Make a change to the HTML
+- Make a change to the HTML and save the file
     * You could try adding an extra sentence to a title somewhere - something small but something you will remember
 - Open the Source Control view from the left pane in VSCode
 - Note the changed files; click the "+" button that appears when you hover over them to add them to staging
