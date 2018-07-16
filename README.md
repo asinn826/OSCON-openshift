@@ -97,7 +97,7 @@ Now we will deploy an image to a container within OpenShift Origin
 - Disable SSL verification (the OpenShift cluster deployed uses self-signed certificates, so this verification will need to be disabled)
 - Click "Add webhook"
     ![Github webhook](./pictures/5.1.png "Github webhook")
-- Go back to VSCode and open up the file ```views/index.html```
+- Go back to VSCode and open up the file `views/index.html`
 - Make a change to the HTML (You will have to do a lot of scrolling to pass the inline CSS - make your edits anywhere after line 208)
     * You could try adding an extra sentence to a title somewhere - something small but something you will remember
 - Save the file
@@ -122,8 +122,5 @@ Now we will deploy an image to a container within OpenShift Origin
 - Go back to your project overview in OpenShift, and notice a new build has started
     ![New build triggered](./pictures/5.4.png "New build triggered")
 - Once the build has completed, go to the *.nip.io link and refresh - note that it has updated to show your changes without you needing to do anything!
-
-## Part 6 (optional): Open Service Broker for Azure - OpenShift integration
-- Notice that in the home page you also see Azure services in addition to application images - this is due to the Open Service Broker for Azure (OSBA) integration, allowing you to deploy various Azure services using OpenShift.
-- [OSBA](https://open.microsoft.com/2018/06/27/announcing-open-service-broker-for-azure-1-0-kubernetes/) has now moved out of preview, and is now 1.0 - you can deploy various services directly from OpenShift.
-
+#
+## Congratulations, you have finished Lab 4!
