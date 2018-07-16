@@ -40,7 +40,7 @@ Play around with the UI if you want or continue to part 2.
 ## Part 2: Starting with GitHub
 A fork in Git is a copy of a repository which allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea ([Source](https://help.github.com/articles/fork-a-repo/)).
 
-- Fork the project from [https://github.com/asinn826/nodejs-ex-oscon2018](https://github.com/asinn826/nodejs-ex-oscon2018) to your own GitHub account by clicking the Fork button on the top right of the repository
+- Fork the project from [https://github.com/asinn826/openshift-oscon-2018-nodejs](https://github.com/asinn826/openshift-oscon-2018-nodejs) to your own GitHub account by clicking the Fork button on the top right of the repository
     - You will see a dialog asking you where to fork this repository. Select your Github account.
 - You will be redirected to your fork of the repository afterward. Clone the forked project onto your local machine.
     - Click the green "Clone or download" button on the top right of the page and copy the URL to your clipboard
