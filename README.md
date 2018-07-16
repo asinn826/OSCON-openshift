@@ -18,7 +18,7 @@ For this lab, you will need the following:
 
 
 ## Part 1: Starting with OpenShift on Azure
-Login to your OpenShift cluster with the following credentials:
+Login to your OpenShift cluster with the following credentials (see Prerequisites above for link):
 
         Username: clusteradmin
         Password: DoNotCheckMeIn!
