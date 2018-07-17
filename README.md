@@ -50,7 +50,7 @@ A fork in Git is a copy of a repository which allows you to freely experiment wi
     - Click the Ubuntu icon on the taskbar or the Desktop, and change cirectory to an easy-to-remember directory
         - We suggest `cd /mnt/c/Users/LabUser/Desktop`
     - Type `git clone` and paste the URL from the clipboard
-        - Right click the mouse button within the Ubuntu window to paste from clipboard
+        - Right click the mouse button within the Ubuntu window to paste from clipboard. If you didn't use a web browser within the VM you may have to type out the repository link directly.
         - When prompted for your username for GitHub, type your GitHub username and GitHub password into the prompt
 
 
