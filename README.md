@@ -5,6 +5,8 @@ OpenShift is a container deployment and management tool developed by Red Hat. It
 In this lab, you will get a taste for creating and deploying applications using OpenShift running on Azure infrastructure. You will create a Node.js application with a MongoDB database, push updates to the code base, and see updates deploy in real time with minimal work needed.
 
 ## Prerequisites:
+> Note: There will be parts of this lab that require copy/paste. In order for copy/paste to work as expected, we suggest using the web browsers within the provided VM.
+
 For this lab, you will need the following:
 1. A GitHub account (if you don't have one, this lab becomes significantly less interesting - you won't be able to use the fancy automated Git deployment that ties together VSCode, GitHub, and OpenShift)
     - We _strongly_ suggest signing up for a GitHub account. You can sign up for a GitHub account [here](https://github.com/join). It takes less than a minute!
