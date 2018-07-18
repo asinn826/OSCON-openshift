@@ -22,7 +22,7 @@ For this lab, you will need the following:
     - [aka.ms/openshift5](https://aka.ms/openshift5)
     - [aka.ms/openshift6](https://aka.ms/openshift6)
 
-    Please use the cluster corresponding to your lab machine. For example, if you are at machine #1, you would use the cluster located at aka.ms/openshift1.
+    Pick a cluster from the list above and proceed.
 
     > Note: You will receive a security warning when you open the link above. This is because we are using a self-signed certificate for the OpenShift clusters for the purposes of this lab. Accept the warnings and proceed to continue with the lab
 
